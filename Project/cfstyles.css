@@ -1,0 +1,319 @@
+/*-------f--------
+
+    Website project
+    Name: Chris Feasby
+    Date: Dec 05, 2019
+    Description: Cfstyles.css
+
+-----------------*/
+
+#submit:hover, #clear:hover {
+	box-shadow: 2px 2px 2px #000;
+	cursor: pointer;
+}
+
+#content 
+{
+	margin: 0 auto;
+	width: 1750px;
+	font-size: 26px;
+}
+
+#content h3
+{
+	text-align: center;
+}
+
+#wrapper
+{
+	height: auto;
+	width: 750px;
+	margin: 0 auto;
+	background-color: #C9C5BA;
+	padding: 20px;
+	border: 2px #000 solid;
+}
+
+#details
+{
+	width: 750px;
+	margin: 0px auto;
+	font-size: 50px;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.customer
+{
+	width: 130px;
+	display: inline-block;
+	text-align: right;
+}
+
+.formfield
+{
+	margin: 10px 0px;
+
+}
+
+.error
+{
+	color: red;
+	font-style: italic;
+	font-weight: bold;
+	padding: 10px 0;
+	display: none;
+	margin-left: 27px;
+}
+
+.clear
+{
+	clear: both;
+}
+
+.center {
+	text-align: center;
+}
+
+input[type=text]
+{
+	padding: 5px 5px;
+	background-color: #C9C5DE;
+}
+
+textarea
+{
+	background-color: #C9C5DE;
+}
+
+body
+{
+	font-family: Calibri;
+	margin: 0px;
+	padding: 0px;
+	background-color: #407076;
+	padding-bottom: 225px;
+}
+
+.mylogo
+{	
+	margin-top: -125px;
+	background-image: url('cflogo.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 400px;
+}
+
+header{
+	display: flex;
+	width: 100%;
+	height: 100px;
+	background-color: #698996;
+	border: 1px #000 solid;
+}
+
+	header > h1{
+		margin: auto;
+		color: #FFF;
+		font-size: 1.6em;
+		transition: .5s;
+	}
+
+h2
+{
+	text-align: center;
+}
+
+#priceList #priceListR h3
+{
+	text-align: center;
+}
+
+#priceList
+{
+	float: left;
+	padding-left: 100px;
+	padding-right: 250px;
+}
+
+#priceListR
+{
+	float: left;
+	padding-bottom: 300px;
+}
+
+#banner nav
+{
+	display: flex;
+	width: 100%;
+	background-color: #C9C5BA;
+	border: 2px #000 solid;
+	font-weight: bold;
+	color: #FFF;
+	margin: 0px auto;
+	text-align: center;
+}
+
+	nav ul{
+		display: flex;
+		flex-direction: row;
+		list-style: none;
+		justify-content: center;
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-top: -5px;
+	}
+
+		nav ul li{
+			padding: 10px;
+			border: 1px #698996 solid;
+			flex-basis: 100%;
+
+		}
+
+			nav ul li a{
+				color: #FFF;
+				text-decoration: none;
+				font-size: 1.3em;
+			}
+
+			nav ul li:hover{
+				background-color: #97B1A6;
+			}
+
+footer{
+	background-color: #C9C5BA;
+	position: fixed;
+	display: flex;
+	bottom: 0px;
+}
+
+footer p{
+	text-align: center;
+}
+
+footer nav 
+{
+	width: 995px;
+	background-color: #407076;
+	border: 2px #000 solid;
+	font-weight: bold;
+	color: #FFF;
+	margin: 0px auto;
+}
+
+	footer nav ul
+	{
+		height: 48px;
+		width: 1000px;
+		list-style: none;
+		justify-content: center;
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-top: -5px;
+	}
+
+	footer nav ul li 
+	{
+		padding: 10px;
+		border: 1px #698996 solid;
+	}
+
+footer #pic{
+	height: 200px;
+	width: 895px;
+}
+
+footer #keyboard
+{
+	padding-left: 340px;
+}
+
+@media(max-width: 640px){
+	header > h1{
+		font-size: 2.1em;
+	}
+
+	body
+	{
+		height: 1180px;
+	}
+
+	#content
+	{
+		width: 400px;
+		height: 1000px;
+	}
+
+	.mylogo
+	{
+		padding-bottom: 350px;
+	}
+
+	#priceList
+	{
+		width: 300px;
+	}
+
+	#priceListR
+	{
+		padding-left: 100px;
+		width: 300px;
+	}
+
+	nav ul{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	nav ul li{
+		border: none;
+	}
+
+		nav ul li:hover, nav ul li a:focus{
+			text-shadow: 2px 2px 1px #2e3;
+		}
+
+	footer nav
+	{
+		width: 250px;
+	}
+
+	nav#footerBanner
+	{
+		margin: 0px auto;
+	}
+
+	nav#footerBanner p:first-of-type
+	{
+		padding-top: 75px;
+		padding-right: 200px;
+	}
+
+	nav#footerBanner #keyboard
+	{
+		height: 0px;
+	}
+
+	#wrapper
+	{
+		width: 330px;
+	}
+
+	#feedback
+	{
+		width: 290px;
+	}
+
+	#keyboard
+	{
+		padding-left: 500px;
+	}
+
+	footer #pic
+	{
+		height: 210px;
+	}
+}
+
